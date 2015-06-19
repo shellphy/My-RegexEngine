@@ -18,7 +18,6 @@ private:
 	int pos;
 	char currentChar;
 	vector<MDFA_Node *> nodes;
-	bool isMatched;
 	string matchedString;
 	char getNextChar();
 	void rollBack();

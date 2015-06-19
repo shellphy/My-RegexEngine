@@ -32,6 +32,7 @@ bool RE::match(string test_str)
 	pos = 0;
 	this->test_str = test_str;
 	currentChar = getNextChar();
+	bool isMatched;
 	int state = 0;
 	MDFA_Edge *edge = nullptr;
 
